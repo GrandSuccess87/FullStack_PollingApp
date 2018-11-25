@@ -29,6 +29,7 @@
   "homepage": "https://github.com/GrandSuccess87/FullStack_PollingApp#readme",
   "dependencies": {
     "bootstrap": "^4.1.3",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "webpack": "^4.26.0"
   }
 }
