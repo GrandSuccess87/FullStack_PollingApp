@@ -1,0 +1,30 @@
+{
+  "name": "FullStack_PollingApp",
+  "version": "1.0.0",
+  "description": "A full stack application utilizing Socket.io in combination with powerful Javascript libraries to develop an interactive polling application that processes data in real time, allowing presenters to interact with the audience and graph their responses.",
+  "main": "app-client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GrandSuccess87/FullStack_PollingApp.git"
+  },
+  "keywords": [
+  "ReactJs",
+  "Javascript",
+  "Front-end",
+  "Development",
+  "Full-stack",
+  "Development",
+  "ExpressJs",
+  "NodeJs",
+  "SocketIO"
+  ],
+  "author": "Quintessa Anderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GrandSuccess87/FullStack_PollingApp/issues"
+  },
+  "homepage": "https://github.com/GrandSuccess87/FullStack_PollingApp#readme"
+}
