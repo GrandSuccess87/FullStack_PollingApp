@@ -11,20 +11,24 @@
     "url": "git+https://github.com/GrandSuccess87/FullStack_PollingApp.git"
   },
   "keywords": [
-  "ReactJs",
-  "Javascript",
-  "Front-end",
-  "Development",
-  "Full-stack",
-  "Development",
-  "ExpressJs",
-  "NodeJs",
-  "SocketIO"
+    "ReactJs",
+    "Javascript",
+    "Front-end",
+    "Development",
+    "Full-stack",
+    "Development",
+    "ExpressJs",
+    "NodeJs",
+    "SocketIO"
   ],
   "author": "Quintessa Anderson",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/GrandSuccess87/FullStack_PollingApp/issues"
   },
-  "homepage": "https://github.com/GrandSuccess87/FullStack_PollingApp#readme"
+  "homepage": "https://github.com/GrandSuccess87/FullStack_PollingApp#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "express": "^4.16.4"
+  }
 }
