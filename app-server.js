@@ -13,7 +13,7 @@ app.use(express.static('./public'));
 app.use(express.static('.node_modules/bootstrap/dist'));
 
 //tell the app to listen for requests at this port number
-app.listen(3000);
+app.listen(3020);
 
 //let user know a server is running
-console.log("Polling server is running at 'http://localhost:3000'");
+console.log("Polling server is running at 'http://localhost:3020'");
