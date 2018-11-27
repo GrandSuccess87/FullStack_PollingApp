@@ -9,10 +9,10 @@ var APP = React.createClass({
 
   //pass through literal with at least one thing: render function using ES6
   render() {
+    var info = "Hello World From React";
     //pass through JSX, later convert it so the browser will understand it
-    return(<h1>Hello World From React</h1>);
+    return (<h1>{info}</h1>);
   }
-
 });
 
 module.exports = APP;

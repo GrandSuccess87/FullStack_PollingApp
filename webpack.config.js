@@ -11,16 +11,16 @@ module.exports = {
   module: {
     rules: [
       {
-        exclude:/(node_modules|app-server.js)/,
+        test: /\.jsx?$/,
+        exclude: /node_modules/,
         use: [
-          {loader: "babel-loader"},
-          // {
-          //   loader: "eslint-loader",
-            // options: {
-            //   formatter: require("eslint/lib/formatters/stylish")
-            // }
-          // }
-        ]
+          {
+            loader: 'babel-loader',
+            options: {
+              presets: ['react']
+            }
+          }
+        ],
       }
     ]
   }
