@@ -1,11 +1,8 @@
 // root client side js file
-var React = require('react');
-var APP = require('./components/APP');
-var ReactDOM = require('ReactDOM');
 
-// import React from 'react';
-// import ReactDOM from 'react-dom';
-// import APP from './components/app.js';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import APP from './components/app.js';
 
 //render the APP component into React Container
 ReactDOM.render(

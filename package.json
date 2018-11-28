@@ -4,7 +4,9 @@
   "description": "A full stack application utilizing Socket.io in combination with powerful Javascript libraries to develop an interactive polling application that processes data in real time, allowing presenters to interact with the audience and graph their responses.",
   "main": "app-client.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/webpack",
+    "start": "node app-server.js"
   },
   "repository": {
     "type": "git",
