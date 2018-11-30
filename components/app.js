@@ -1,19 +1,21 @@
 //very first component rendered into index.html
 
 //require react module in React variable
-var React = require('react');
+import React from 'react';
+import ReactDOM from 'react-dom';
+//import {render} from 'react-dom';
 
 // create component
 //react.createClass creates the component
-var APP = React.createClass({
+class APP extends React.Component {
 
   //pass through literal with at least one thing: render function using ES6
   render() {
-    var info = "Hello World From React";
+    // var info = "Hello World From React";
     //pass through JSX, later convert it so the browser will understand it
-    return (<h1>{info}</h1>);
+    return (<h1>Hello Quintessa and Mohammed From React!</h1>);
   }
-});
+};
 
 module.exports = APP;
 

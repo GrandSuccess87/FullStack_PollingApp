@@ -2,12 +2,12 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import APP from './components/app.js';
+import APP from './components/APP';
 
 //render the APP component into React Container
 ReactDOM.render(
   <APP />,
-  document.getElementById("root")
+  document.getElementById("react-container")
 );
 
 //Next step: convert JSX code and ES6 to ES5 or below so the browser understands render function

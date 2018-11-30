@@ -94,8 +94,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_app_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(12);
-/* harmony import */ var _components_app_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_components_app_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_APP__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(12);
+/* harmony import */ var _components_APP__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_components_APP__WEBPACK_IMPORTED_MODULE_2__);
 // root client side js file
 
 
@@ -103,7 +103,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 //render the APP component into React Container
-react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_app_js__WEBPACK_IMPORTED_MODULE_2___default.a, null), document.getElementById("root"));
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_APP__WEBPACK_IMPORTED_MODULE_2___default.a, null), document.getElementById("react-container"));
 
 //Next step: convert JSX code and ES6 to ES5 or below so the browser understands render function
 //compile app.js and app-client.js to bundle.js and server it to the browser
@@ -23065,17 +23065,17 @@ var React = __webpack_require__(1);
 // create component
 //react.createClass creates the component
 var APP = React.createClass({
-  displayName: "APP",
+  displayName: 'APP',
 
 
   //pass through literal with at least one thing: render function using ES6
   render() {
-    var info = "Hello World From React";
+    // var info = "Hello World From React";
     //pass through JSX, later convert it so the browser will understand it
     return React.createElement(
-      "h1",
+      'h1',
       null,
-      info
+      'Hello World From React'
     );
   }
 });
