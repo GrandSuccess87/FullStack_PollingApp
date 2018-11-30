@@ -20,7 +20,7 @@ module.exports = {
       {
         test: /\.jsx?$/,
         exclude: /(node_modules|app-server.js)/,
-        include: APP_DIR
+        // include: APP_DIR
         use: [
           {
             //babel-loader will convert JSX to JS readable by browser and ES6 to older JS readable by the broswer
